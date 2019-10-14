@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+       <bean id="meetingService" class="demo01.service.MeetingService"></bean>
+       <bean id="meetingList" class="demo01.data.MeetingList"></bean>
+       <bean id="bossList" class="demo01.data.BossList"></bean>
+</beans>
